@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    font-family: Chilanka;
+    font-weight: bolder;
+}
+ul{
+    display: block;
+    overflow: hidden;
+    background-color: orangered;
+}
+li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: "DejaVu Math TeX Gyre";
+    border-right: 2px solid white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: black;
+}
+p{
+    font-weight: bold;
+}
+.form{
+    background-color: orange;
+    margin: 20px;
+    padding: 25px;
+}
+input{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+label{
+    font-weight: bold;
+    font-family: "DejaVu Serif";
+    font-size: 15px;
+}
+button{
+    background-color: red;
+}
+button:hover{
+    color: yellow;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    margin: 0;
+}
+td{
+    border: 2px solid black;
+    padding: 12px;
+}
+th{
+    color: orange;
+    font-style: italic;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 0;
+
+}
+tr:nth-child(odd){
+    background-color: #1ff61f;
+}
+ul li.active{
+    background: sandybrown;
+}
+
